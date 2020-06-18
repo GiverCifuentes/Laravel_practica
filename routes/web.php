@@ -73,4 +73,5 @@ Route::delete('competencias/{competencia}',function($competencia){
 })->name('competencias.destroy');
 */
 
+Route::get('productos', 'ProductController@index')->name('products.index');
 
