@@ -75,3 +75,6 @@ Route::delete('competencias/{competencia}',function($competencia){
 
 Route::get('productos', 'ProductController@index')->name('products.index');
 
+Route::get('productos/crear', 'ProductController@create')->name('products.create');
+
+Route::post('productos', 'ProductController@store')->name('products.store');

@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1 align="center">Listado de productos</h1>
+    <a class="btn btn-success mb-3" href="{{ route('products.create')}}">crear</a>
     @if(empty($products))
         <div class="alert alert-warning">
             La lista de productos esta vacia

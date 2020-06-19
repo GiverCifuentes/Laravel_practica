@@ -16,12 +16,14 @@ class ProductController extends Controller
 
     //
     public function create (){
-        return 'Formulario para crear un producto desde el controlador';
+        return view('products.create');
     }
 
     public function store ()
     {
-    //
+        $product = Product::create(request()->all());
+        return redirect()
+            ->route('products.index');
     }
 
     public function show ($product){
