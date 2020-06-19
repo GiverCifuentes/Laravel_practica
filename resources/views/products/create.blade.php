@@ -23,7 +23,7 @@
     </div>
     <div class="form-row">
         <label>Stock</label>
-    <input class="form-control" type="number" name="sctok" min="0" step="1" value="{{ old('sctok') }}" required>
+    <input class="form-control" type="number" name="stock" min="0" step="1" value="{{ old('stock') }}" required>
     </div>
     <div class="form-row">
         <label>Status</label>

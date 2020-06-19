@@ -15,7 +15,7 @@ class Product extends Model
         'title',
         'description',
         'price',
-        'sctok',
+        'stock',
         'status',
     ];
 }
